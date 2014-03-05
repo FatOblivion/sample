@@ -24,5 +24,5 @@
 Sample = Ember.Application.create();
 
 Sample.ApplicationAdapter = DS.RESTAdapter;
-
+require('store');
 //= require_tree .

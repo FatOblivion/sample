@@ -9,7 +9,7 @@ Sample.StoriesRoute = Ember.Route.extend({
 		 });
 	},
 	actions: {
-		"delete": function(story)
+		"delete": function(story){
 			story.destroyRecord();
 	}
 }
