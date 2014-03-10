@@ -8,3 +8,8 @@ Sample.Router.map(function() {
   	this.route('new');
 	});
 });
+
+Sample.Router.map(function() {
+  this.route("chart", { path: "/chart" });
+  
+});

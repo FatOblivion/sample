@@ -1,0 +1,19 @@
+
+
+  <script type="text/x-handlebars">
+    Charts Components
+    <hr>
+    {{outlet}}
+  </script>
+  
+  <script type="text/x-handlebars" id="index">
+    <h2>Chart one</h2>
+    {{line-chart data=model.modelOne}}
+
+    <h2>Chart two</h2>
+    {{line-chart data=model.modelTwo}}
+  </script>
+
+  <script type="text/x-handlebars" id="components/line-chart">
+  </script>
+
