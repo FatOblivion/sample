@@ -10,6 +10,7 @@ Sample.Router.map(function() {
 });
 
 Sample.Router.map(function() {
-  this.route("chart");
+  this.route("line-chart");
   
 });
+
